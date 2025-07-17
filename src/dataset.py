@@ -20,7 +20,7 @@ class DataLoader:
     def train_files_fetch(self, train_ct):
         train_eps = []
 
-        with open(os.path.join(aligned_data_path, 'train_files'), 'r', encoding='utf-8') as f:
+        with open(os.path.join(self.aligned_data_path, 'train_files'), 'r', encoding='utf-8') as f:
             train_eps_string = f.read()
             train_eps_string = train_eps_string.split()
             for train_ep in train_eps_string:
