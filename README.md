@@ -1,9 +1,11 @@
 # CantripAI
 
-This is a personal project, aimed at creating a chatbot that acts as a D&D Dungeon Master, using transformer based language models.
+This is the repository for Cantrip, the final project for COMP 557 at Rice University
+
+The preprocessing scripts can be found at src, alongside the jupyter notebook used to create Cantrip.
+
+The finetuned model and its weights cannot be uploaded to Github as their size is too large. I can provide them upon request.
 
 ## References
-
-If you use this dataset or this project, please cite:
 
 Rameshkumar, R., & Bailey, P. (2020). *Storytelling with Dialogue: A Critical Role Dungeons and Dragons Dataset*. Proceedings of ACL.  
